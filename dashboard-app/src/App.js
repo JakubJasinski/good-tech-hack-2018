@@ -31,7 +31,7 @@ class App extends Component {
              </div>
              <div className="nav-content">
                <ul className="tabs tabs-transparent">
-                 <li className="tab">DIN DAG</li>
+                 <li className="tab active">DIN DAG</li>
                  <li className="tab">ANALYS</li>
                </ul>
              </div>
