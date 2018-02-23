@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import SwipeableViews from 'react-swipeable-views';
 import Card from '../Card/Card';
-import './cardSwiper.scss';
+import './cardSwiper.css';
 
 class CardSwiper extends Component {
 
@@ -18,7 +18,7 @@ class CardSwiper extends Component {
   render() {
     return (
       <div className="card-swiper-container">
-        <SwipeableViews disabled={this.state.disabled}>
+        <SwipeableViews disabled={this.state.disabled} style={{padding:'0 20px'}} slideStyle={{padding: '0 8px'}}>
           <Card
             disableSwiper={this.disableSwiper}
             text={'Hur var det att kliva upp ur sängen imorse?'}

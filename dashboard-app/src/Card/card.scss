@@ -1,15 +1,25 @@
 @import '../variables';
 
 .card {
+  border-radius: 12px;
   .card-content {
     .text {
       color: $dark-grey;
       font-size: 1.6em;
+      margin-top:12px;
     }
 
     .option {
       color:$light-grey;
       font-size:1.2em;
+      position: relative;
+      margin-top:-42px;
     }
+
+    .bottom {
+      width:100%;
+      margin:108px 0 -24px 0;
+    }
+
   }
 }

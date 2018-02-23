@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import QuestionView from './QuestionView/QuestionView';
+import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
 class App extends Component {
 
@@ -21,9 +22,17 @@ class App extends Component {
     this.setState({currentView:view});
   }
   render() {
+    const theme1 = getMuiTheme({
+      slider: {
+        selectionColor: "#0EDBA7",
+        handleSize: 26,
+        handleSizeDisabled: 8,
+        handleSizeActive: 26,
+      }
+    })
     return (
       <div className="App">
-        <MuiThemeProvider>
+        <MuiThemeProvider muiTheme={theme1}>
           <div>
             <nav className="nav-extended">
              <div className="nav-wrapper">

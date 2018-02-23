@@ -9,8 +9,9 @@ class QuestionView extends Component {
       <div>
         <Calendar />
 
+        <CardSwiper />
+        
         <div className="container">
-          <CardSwiper />
           <Button onClick={() => this.props.changeView('thankYouView')}/>
         </div>
       </div>
