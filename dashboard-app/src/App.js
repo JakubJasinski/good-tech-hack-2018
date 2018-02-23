@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import QuestionView from './QuestionView/QuestionView';
+import ThankYouView from './ThankYouView/ThankYouView';
 
 class App extends Component {
 
@@ -12,7 +13,7 @@ class App extends Component {
 
     this.views = {
       questionView: <QuestionView changeView={this.changeView}/>,
-      thankYouView: <div></div>,
+      thankYouView: <ThankYouView></ThankYouView>,
       analyticsView: <div></div>
     }
   }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="28px" viewBox="0 0 43 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Swipe1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-167.000000, -254.000000)">
+        <g id="dialog" transform="translate(48.000000, 206.000000)">
+            <g id="avatar" transform="translate(121.000000, 50.000000)">
+                <g id="Group">
+                    <path d="M0.25,24.5 C5.65350877,16.8333333 12.0701754,13 19.5,13 C26.9298246,13 33.3464912,16.8333333 38.75,24.5" id="Path-3" stroke="#212121" stroke-width="3" stroke-linecap="round" transform="translate(19.500000, 18.750000) scale(1, -1) translate(-19.500000, -18.750000) "></path>
+                    <path d="M25.6227149,7.62271493 L30.1626851,1.7647562 C30.5010015,1.3282239 31.1291405,1.24860419 31.5656728,1.58692061 C31.6868414,1.68082736 31.784798,1.80133464 31.8519735,1.93913075 L34.6227149,7.62271493" id="Path-3" stroke="#212121" stroke-width="3" stroke-linecap="round" transform="translate(30.122715, 4.500000) scale(-1, 1) rotate(90.000000) translate(-30.122715, -4.500000) "></path>
+                    <circle id="Oval-2" fill="#212121" cx="10.5" cy="5.5" r="3.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

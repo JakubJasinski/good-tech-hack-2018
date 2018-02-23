@@ -18,7 +18,7 @@ class CardSwiper extends Component {
   render() {
     return (
       <div className="card-swiper-container">
-        <SwipeableViews disabled={this.state.disabled}>
+        <SwipeableViews disabled={this.state.disabled} enableMouseEvents={true}>
           <Card
             disableSwiper={this.disableSwiper}
             text={'Hur var det att kliva upp ur sängen imorse?'}
