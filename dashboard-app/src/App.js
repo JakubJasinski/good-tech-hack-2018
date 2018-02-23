@@ -1,33 +1,45 @@
 import React, { Component } from 'react';
 import './App.css';
-import AppBar from 'material-ui/AppBar';
-import Chip from 'material-ui/Chip';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import QuestionView from './QuestionView/QuestionView';
 
 class App extends Component {
+
+  componentWillMount() {
+    this.setState({
+      currentView: 'questionView'
+    });
+
+    this.views = {
+      questionView: <QuestionView changeView={this.changeView}/>,
+      thankYouView: <div></div>,
+      analyticsView: <div></div>
+    }
+  }
+
+  changeView = (view) => {
+    this.setState({currentView:view});
+  }
   render() {
     return (
       <div className="App">
         <MuiThemeProvider>
           <div>
-            <AppBar
-              title="Dashboard Application"
-              iconClassNameRight="muidocs-icon-navigation-expand-more"
-            />
+            <nav className="nav-extended">
+             <div className="nav-wrapper">
+               <a href="#" className="brand-logo">Logo</a>
+             </div>
+             <div className="nav-content">
+               <ul className="tabs tabs-transparent">
+                 <li className="tab">DIN DAG</li>
+                 <li className="tab">ANALYS</li>
+               </ul>
+             </div>
+            </nav>
 
-            <Chip>
-              Freddan Gillar Chips
-            </Chip>
+            {this.views[this.state.currentView]}
           </div>
         </MuiThemeProvider>
-
-        <div className="container">
-          <div className="row">
-            <div className="col s4 box">1</div>
-            <div className="col s4 box">2</div>
-            <div className="col s4 box">3</div>
-          </div>
-        </div>
       </div>
     );
   }

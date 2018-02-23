@@ -1,6 +1,7 @@
 @import 'variables';
 
-.box {
-  background: $primary-color;
-  margin-left:1px;
+.App {
+  background: $background-color;
+  height:100vh;
+  color: $dark-grey;
 }

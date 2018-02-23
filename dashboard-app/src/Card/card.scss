@@ -1,0 +1,13 @@
+@import '../variables';
+
+.card {
+  .card-content {
+    .text {
+      color: $dark-grey;
+    }
+
+    .option {
+      color:$light-grey;
+    }
+  }
+}
