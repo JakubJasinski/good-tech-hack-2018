@@ -3,13 +3,15 @@ import './App.css';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import QuestionView from './QuestionView/QuestionView';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
+import AnalyticsView from './AnalyticsView/AnalyticsView';
+
 let classNames = require('classnames');
 
 class App extends Component {
 
   componentWillMount() {
     this.setState({
-      currentView: 'questionView',
+      currentView: 'analyticsView',
       tab1Active:true,
       tab2Active:false,
     });
@@ -17,7 +19,7 @@ class App extends Component {
     this.views = {
       questionView: <QuestionView changeView={this.changeView}/>,
       thankYouView: <div></div>,
-      analyticsView: <div></div>
+      analyticsView: <AnalyticsView />
     }
   }
 
