@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="297px" height="71px" viewBox="0 0 297 71" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Graph</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="130.15286%" id="linearGradient-1">
+            <stop stop-color="#6EFFE8" offset="0%"></stop>
+            <stop stop-color="#1DE9B6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="iPhone-7-Copy-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-42.000000, -534.000000)">
+        <g id="Card-Graph-3" transform="translate(16.000000, 153.000000)">
+            <g id="Graph" transform="translate(25.000000, 381.000000)">
+                <path d="M291,70.0987371 C291,71.2548008 291,32.2049208 291,3.04704326 C272.602122,3.04704326 273.3687,52.0322775 239.639257,52.0322775 C205.909814,52.0322775 200.543767,8.29546122 182.912467,8.29546122 C165.281167,8.29546122 166.814324,32.2049208 155.31565,32.2049208 C143.816976,32.2049208 143.816976,12.9607216 126.185676,12.9607216 C108.554377,12.9607216 103.188329,43.8680718 86.3236074,43.8680718 C69.4588859,43.8680718 64.8594164,24.0407151 47.2281167,24.0407151 C29.596817,24.0407151 24.9973475,61.3627983 2,61.3627983 L2,70.0987371" id="Path-4" fill="url(#linearGradient-1)"></path>
+                <path d="M2.54603175,70.2786668 L297.090134,70.2786668" id="6" stroke="#CBCBCB" stroke-width="0.6" stroke-linecap="square"></path>
+                <path d="M1.63809524,70.2786668 L1.63809524,1.00661251" id="6" stroke="#CBCBCB" stroke-width="0.6" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>
