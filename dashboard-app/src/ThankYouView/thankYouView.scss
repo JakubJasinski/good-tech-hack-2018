@@ -17,10 +17,23 @@
     }
 
     .analys-progress {
+
+        &.p100 {
+            .progress {
+                .actual-progress {
+                    width: 100%;
+                }
+            }
+            .percent {
+                left: 118px;
+            }
+        }
+
         .percent {
             position: relative;
             left: 94px;
             color: $dark-grey;
+            transition: left .3s;
         }
 
         .progress {
@@ -34,6 +47,7 @@
                 height: 100%;
                 background: $accent-color;
                 border-radius: 8px;
+                transition: width .3s;
             }
         }
     }

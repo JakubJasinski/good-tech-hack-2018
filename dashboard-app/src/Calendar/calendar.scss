@@ -9,7 +9,7 @@
   text-align: center;
   z-index:0;
   position: relative;
-  background: white;
+  background: $background-color;
 
   .calendar-item {
     display: flex;
@@ -18,8 +18,11 @@
     width:78px;
     height:100%;
     line-height: 1.1;
+    background-color: $white;
   }
+
   .active {
     background: $background-color;
+    border-radius: 15px 15px 0 0;
   }
 }

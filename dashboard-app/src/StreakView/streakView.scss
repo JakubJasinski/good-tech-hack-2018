@@ -9,6 +9,10 @@
         opacity: 0;
     }
 
+    &.removed {
+        visibility: collapse;
+    }
+
     .streak-modal {
         position: absolute;
         top: 90px;

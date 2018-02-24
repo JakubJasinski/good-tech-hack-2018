@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>notif</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Swipe-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-310.000000, -36.000000)">
+        <g id="nav">
+            <g id="notif" transform="translate(310.000000, 36.000000)">
+                <circle id="Oval-3" fill="#DE1A1A" cx="10" cy="10" r="10"></circle>
+                <text id="1" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="7.13085938" y="14">1</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

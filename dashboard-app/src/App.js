@@ -6,6 +6,7 @@ import ThankYouView from './ThankYouView/ThankYouView';
 import StreakView from './StreakView/StreakView';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import AnalyticsView from './AnalyticsView/AnalyticsView';
+import notifImage from './notif.svg';
 
 let classNames = require('classnames');
 
@@ -15,19 +16,27 @@ class App extends Component {
     this.setState({
       currentView: 'questionView',
       streakView: false,
+      streakViewRemoved: true,
       tab1Active:true,
       tab2Active:false,
+      tab2Notif: false
     });
 
     this.views = {
       questionView: <QuestionView onComplete={() => {
         //this.changeView('thankYouView');
-        this.setState({'streakView': true});
+        this.setState({streakView: true});
+        this.setState({streakViewRemoved: false})
 
         setTimeout(() => this.changeView('thankYouView'), 300);
-        setTimeout(() => this.setState({'streakView': false}), 1300);
+        setTimeout(() => {
+          this.setState({'streakView': false});
+          setTimeout(() => this.setState({streakViewRemoved: true}), 300);
+        }, 1500);
       }} />,
-      thankYouView: <ThankYouView></ThankYouView>,
+      thankYouView: <ThankYouView onComplete={() => {
+        this.setState({tab2Notif: true});
+      }}/>,
       analyticsView: <AnalyticsView />
     }
   }
@@ -66,13 +75,17 @@ class App extends Component {
              <div className="nav-content">
                <ul className="tabs tabs-transparent">
                  <li className={menuClass1} onClick={() => this.onMenuClick(0)}>DIN DAG</li>
-                 <li className={menuClass2} onClick={() => this.onMenuClick(1)}>ANALYS</li>
+                 <li className={menuClass2} onClick={() => this.onMenuClick(1)}>ANALYS
+                  {this.state.tab2Notif && <img className="notif" src={notifImage} />}
+                 </li>
                </ul>
              </div>
             </nav>
 
-            <StreakView enabled={this.state.streakView} />
-            <div className={"view"+(this.state.streakView? " disabled" : "")}>
+            <StreakView enabled={this.state.streakView} removed={this.state.streakViewRemoved} />
+            <div className={"view"
+                  +(this.state.streakView? " disabled" : "")
+                }>
               {this.views[this.state.currentView]}
             </div>
           </div>
