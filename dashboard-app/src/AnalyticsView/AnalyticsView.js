@@ -69,14 +69,16 @@ class AnalyticsView extends Component {
           ];
 
     return (
-      <div className="analytics-view-container" onClick={() => this.updateView()}>
+      <div className="analytics-view-container">
         <div className="container">
-          <h5>Senaste Månaden</h5>
+          <div onClick={() => this.updateView()}>
+            <h5>Senaste Månaden</h5>
 
-          <div className="graph-container">
-          {this.fillContent()}
+            <div className="graph-container">
+            {this.fillContent()}
+            </div>
+            <h5 className="bottom">Dina Tips</h5>
           </div>
-          <h5 className="bottom">Dina Tips</h5>
           {this.state.view ? (
             <CardSwiper content={cardContent1} slider={false} smallText={true} key="b1"/>
           ) : (
