@@ -32,7 +32,7 @@ class App extends Component {
         setTimeout(() => {
           this.setState({'streakView': false});
           setTimeout(() => this.setState({streakViewRemoved: true}), 300);
-        }, 1500);
+        }, 2300);
       }} />,
       thankYouView: <ThankYouView onComplete={() => {
         this.setState({tab2Notif: true});
@@ -70,7 +70,7 @@ class App extends Component {
           <div>
             <nav className="nav-extended">
              <div className="nav-wrapper">
-               <a className="brand-logo">Logo</a>
+               <a className="brand-logo">Nim</a>
              </div>
              <div className="nav-content">
                <ul className="tabs tabs-transparent">
