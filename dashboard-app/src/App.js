@@ -11,7 +11,7 @@ class App extends Component {
 
   componentWillMount() {
     this.setState({
-      currentView: 'analyticsView',
+      currentView: 'questionView',
       tab1Active:true,
       tab2Active:false,
     });
