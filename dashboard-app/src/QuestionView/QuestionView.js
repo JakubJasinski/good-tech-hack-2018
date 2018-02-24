@@ -7,8 +7,8 @@ class QuestionView extends Component {
   render() {
     const content = [
       {text: 'Hur var det att kliva upp ur sängen imorse?', leftOption: 'Lätt', rightOption:'Svårt'},
-      {text: 'Hur var det att kliva upp ur sängen imorse?', leftOption: 'Lätt', rightOption:'Svårt'},
-      {text: 'Hur var det att kliva upp ur sängen imorse?', leftOption: 'Lätt', rightOption:'Svårt'},
+      {text: 'Hur har din energinivå varit under dagen?', leftOption: 'Enkelt', rightOption:'Jobbigt'},
+      {text: 'Hur bra sov du inatt?', leftOption: 'Bra', rightOption:'Dåligt'},
     ];
     return (
       <div>
