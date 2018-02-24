@@ -1,0 +1,44 @@
+@import '../_variables';
+
+.streak-view-container {
+    position: relative;
+    transition: opacity .3s;
+    z-index: 1;
+
+    &.disabled {
+        opacity: 0;
+    }
+
+    .streak-modal {
+        position: absolute;
+        top: 90px;
+        left: 0;
+        right: 0;
+        background: $white;
+        height: 284px;
+        margin: 28px;
+        overflow: hidden;
+        transition: top .3s;
+        text-align: center;
+
+        &.disabled {
+            top: 120px;
+        }
+    }
+
+    .face {
+        margin-top: 50px;
+
+    }
+    .text {
+        margin: 20px;
+        font-size: 1.28em;
+    }
+    .diagonal-bg {
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+}

@@ -9,3 +9,11 @@
     background-color:$primary-color;
   }
 }
+
+.view {
+    transition: opacity .3s;
+
+    &.disabled {
+        opacity: 0;
+    }
+}
