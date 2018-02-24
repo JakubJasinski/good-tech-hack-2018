@@ -5,7 +5,7 @@ class Button extends Component {
   render() {
     return (
       <div className="button-container">
-        <div className="waves-effect waves-light btn" onClick={this.props.onClick}>KLAR MED DAGEN</div>
+        <div className="waves-effect waves-light btn" onClick={this.props.onClick}>{this.props.text}</div>
       </div>
     );
   }

@@ -1,0 +1,15 @@
+@import '../variables';
+
+
+.analytics-view-container {
+  text-align: center;
+  padding-top:24px;
+  background: $background-color;
+  .graph-container {
+    .graph {
+      width:100%;
+      height:85px;
+      background: pink;
+    }
+  }
+}

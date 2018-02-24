@@ -15,28 +15,31 @@ class CardSwiper extends Component {
     this.setState({disabled:disable})
   };
 
+  fillContent = () => {
+    let arr = [];
+    this.props.content.forEach((row, index) => {
+      arr.push(<Card
+        disableSwiper={this.disableSwiper}
+        text={this.props.content[index].text}
+        leftOption={this.props.content[index].leftOption}
+        rightOption={this.props.content[index].rightOption}
+        slider={this.props.slider}
+        button={row.button}
+        smallText={this.props.smallText}
+        key={'a'+index}
+      />)
+    });
+    return arr;
+  }
   render() {
     return (
       <div className="card-swiper-container">
-        <SwipeableViews disabled={this.state.disabled} enableMouseEvents={true} style={{padding:'0 20px'}} slideStyle={{padding: '0 8px'}}>
-          <Card
-            disableSwiper={this.disableSwiper}
-            text={'Hur var det att kliva upp ur sängen imorse?'}
-            leftOption={'Enkelt'}
-            rightOption={'Jobbigt'}
-          />
-          <Card
-            disableSwiper={this.disableSwiper}
-            text={'Hur var det att kliva upp ur sängen imorse?'}
-            leftOption={'Enkelt'}
-            rightOption={'Jobbigt'}
-          />
-          <Card
-            disableSwiper={this.disableSwiper}
-            text={'Hur var det att kliva upp ur sängen imorse?'}
-            leftOption={'Enkelt'}
-            rightOption={'Jobbigt'}
-          />
+        <SwipeableViews 
+          disabled={this.state.disabled}
+          style={{padding:'0 20px'}} slideStyle={{padding: '0 8px'}}
+          enableMouseEvents={true}>
+
+          {this.fillContent()}
         </SwipeableViews>
       </div>
     );
