@@ -14,7 +14,7 @@ class AnalyticsView extends Component {
     if(this.state.view) {
       this.content1.forEach((field, index) => {
         arr.push(
-          <div>
+          <div key={"sf"+index}>
             <div className={field.class} />
             <p>{field.text}</p>
           </div>
@@ -24,7 +24,7 @@ class AnalyticsView extends Component {
     else {
       this.content2.forEach((field, index) => {
         arr.push(
-          <div>
+          <div key={"ss"+index}>
             <div className={field.class} />
             <p>{field.text}</p>
           </div>
