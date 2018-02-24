@@ -17,7 +17,7 @@ class QuestionView extends Component {
         <CardSwiper content={content} slider={true} />
 
         <div className="container">
-          <Button onClick={this.props.onComplete} text={'KLAR MED DAGEN'} />
+          <Button onClick={this.props.onComplete} text={'KLAR MED DAGEN'}/>
         </div>
       </div>
     );
