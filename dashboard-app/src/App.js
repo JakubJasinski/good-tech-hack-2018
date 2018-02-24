@@ -68,9 +68,9 @@ class App extends Component {
       <div className="App">
         <MuiThemeProvider muiTheme={theme1}>
           <div>
-            <nav className="nav-extended">
+            <nav className="nav-extended" style={{paddingTop:'24px'}}>
              <div className="nav-wrapper">
-               <a className="brand-logo">Nim</a>
+               <a className="brand-logo"></a>
              </div>
              <div className="nav-content">
                <ul className="tabs tabs-transparent">
