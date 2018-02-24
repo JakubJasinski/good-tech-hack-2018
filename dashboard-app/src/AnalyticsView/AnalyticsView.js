@@ -13,20 +13,18 @@ class AnalyticsView extends Component {
       <div className="analytics-view-container">
         <div className="container">
           <h5>Senaste Månaden</h5>
-          <p>Under slutet av månaden har du haft mer energi</p>
 
           <div className="graph-container">
             <div className="graph g1"></div>
-            <p>Title 1</p>
+            <p>Under slutet av månaden har du haft mer energi</p>
 
             <div className="graph g2"></div>
-            <p>Title 2</p>
+            <p>Hela månaden har du hållit dig frisk</p>
 
             <div className="graph g3"></div>
-            <p>Title 3</p>
+            <p>Du har haft en oregelbunden sömn</p>
           </div>
-
-          <h5>Dina Tips</h5>
+          <h5 className="bottom">Dina Tips</h5>
           <CardSwiper content={content} slider={false} smallText={true} />
         </div>
       </div>
