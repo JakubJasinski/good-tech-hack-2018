@@ -34,7 +34,11 @@ class CardSwiper extends Component {
   render() {
     return (
       <div className="card-swiper-container">
-        <SwipeableViews disabled={this.state.disabled} style={{padding:'0 20px'}} slideStyle={{padding: '0 8px'}}>
+        <SwipeableViews 
+          disabled={this.state.disabled}
+          style={{padding:'0 20px'}} slideStyle={{padding: '0 8px'}}
+          enableMouseEvents={true}>
+
           {this.fillContent()}
         </SwipeableViews>
       </div>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="53px" height="26px" viewBox="0 0 53 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>avatar</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Swipe" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-162.000000, -235.000000)" stroke-linecap="round">
+        <g id="avatar" transform="translate(163.000000, 237.000000)" stroke="#717171" stroke-width="3">
+            <path d="M9,5.04956292 C10.7954001,1.68318764 12.9274378,2.38678041e-16 15.396113,0 C17.8647882,0 19.9968259,1.68318764 21.7922261,5.04956292" id="Path-3"></path>
+            <path d="M0.5,22.5 C7.51754386,14.8333333 15.8508772,11 25.5,11 C35.1491228,11 43.4824561,14.8333333 50.5,22.5" id="Path-3" transform="translate(25.500000, 16.750000) scale(1, -1) translate(-25.500000, -16.750000) "></path>
+            <path d="M29,5.04956292 C30.7954001,1.68318764 32.9274378,2.38678041e-16 35.396113,0 C37.8647882,0 39.9968259,1.68318764 41.7922261,5.04956292" id="Path-3"></path>
+        </g>
+    </g>
+</svg>

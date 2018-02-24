@@ -1,0 +1,40 @@
+@import '../variables';
+
+.thank-you-view-container {
+    text-align: center;
+    padding: 50px;
+    overflow-x: hidden;
+
+    .face {
+        margin: 40px;
+    }
+
+    .uplifting-text {
+        font-size: 1.28em;
+        width: 70%;
+        margin: 20px auto;
+        color: $lighter-dark-text;
+    }
+
+    .analys-progress {
+        .percent {
+            position: relative;
+            left: 94px;
+            color: $dark-grey;
+        }
+
+        .progress {
+            width: 100%;
+            height: 16px;
+            background: $light-grey;
+            border-radius: 8px;
+
+            .actual-progress {
+                width: 83%;
+                height: 100%;
+                background: $accent-color;
+                border-radius: 8px;
+            }
+        }
+    }
+}

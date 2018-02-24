@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import QuestionView from './QuestionView/QuestionView';
+import ThankYouView from './ThankYouView/ThankYouView';
+import StreakView from './StreakView/StreakView';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import AnalyticsView from './AnalyticsView/AnalyticsView';
 
@@ -12,13 +14,20 @@ class App extends Component {
   componentWillMount() {
     this.setState({
       currentView: 'questionView',
+      streakView: false,
       tab1Active:true,
       tab2Active:false,
     });
 
     this.views = {
-      questionView: <QuestionView changeView={this.changeView}/>,
-      thankYouView: <div></div>,
+      questionView: <QuestionView onComplete={() => {
+        //this.changeView('thankYouView');
+        this.setState({'streakView': true});
+
+        setTimeout(() => this.changeView('thankYouView'), 300);
+        setTimeout(() => this.setState({'streakView': false}), 1300);
+      }} />,
+      thankYouView: <ThankYouView></ThankYouView>,
       analyticsView: <AnalyticsView />
     }
   }
@@ -62,7 +71,10 @@ class App extends Component {
              </div>
             </nav>
 
-            {this.views[this.state.currentView]}
+            <StreakView enabled={this.state.streakView} />
+            <div className={"view"+(this.state.streakView? " disabled" : "")}>
+              {this.views[this.state.currentView]}
+            </div>
           </div>
         </MuiThemeProvider>
       </div>
