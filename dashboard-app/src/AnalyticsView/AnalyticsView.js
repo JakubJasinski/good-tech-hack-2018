@@ -71,7 +71,7 @@ class AnalyticsView extends Component {
     return (
       <div className="analytics-view-container">
         <div className="container">
-          <div onClick={() => this.updateView()}>
+          <div onClick={() => this.updateView()} className="removeTapFlash">
             <h5>Senaste Månaden</h5>
 
             <div className="graph-container">

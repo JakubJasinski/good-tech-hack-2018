@@ -21,7 +21,7 @@ class ThankYouView extends Component {
 
   render() {
     return (
-      <div onClick={this.updateText}>
+      <div onClick={this.updateText} className="removeTapFlash">
         <Calendar />
         <div className="thank-you-view-container" >
 

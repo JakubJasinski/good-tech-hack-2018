@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import CardSwiper from '../CardSwiper/CardSwiper';
 import Calendar from '../Calendar/Calendar';
 import Button from '../Button/Button';
+import './questionView.css';
 
 class QuestionView extends Component {
   render() {
@@ -16,8 +17,8 @@ class QuestionView extends Component {
 
         <CardSwiper content={content} slider={true} />
 
-        <div className="container">
-          <Button onClick={this.props.onComplete} text={'KLAR MED DAGEN'} />
+        <div className="container margin-bottom">
+          <Button className="margin-bottom" onClick={this.props.onComplete} text={'KLAR MED DAGEN'} />
         </div>
       </div>
     );
