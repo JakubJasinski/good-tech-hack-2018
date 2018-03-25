@@ -7,6 +7,7 @@
   background: $background-color;
   h5 {
     font-weight: bold;
+    margin:0;
   }
   .graph-container {
     .graph {
@@ -23,6 +24,7 @@
 
     .g1 {
       background-image: url('./graph01.svg');
+      margin-top:0;
     }
     .g2 {
       background-image: url('./graph02.svg');

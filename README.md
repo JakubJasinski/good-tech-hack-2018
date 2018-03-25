@@ -16,7 +16,7 @@ MyCoach is a full solution for the municipality to get to know their inhabitants
 It is an application for individuals to track their health and daily overall
 feeling. When a user has tracked themselves for a few days, expert help will be sent to the user with tailored tips on what the person can do to feel better. The user data is fully anonymous.
 
-![Overview](public/images/overview2.png)
+![Overview](public/images/app-screens.png)
 
 ## Statistical Tool
 In return, the municipality will get user data of their inhabitants which they
@@ -26,6 +26,8 @@ This creates opportunities for the municipality to see where and what they can i
 
 In the short run, the inhabitants will get expert help through the app, and in
 the long run, they will also get a better city where the municipality can create better opportunities for living a good life.
+
+![Overview](public/images/overview2.png)
 
 ## Machine Learning
 In order to get the expert help sent to the users, machine learning will be used to find patterns in the user data, which means that your data that you provide will also help others in the city. A good incentive for people to use the app.
