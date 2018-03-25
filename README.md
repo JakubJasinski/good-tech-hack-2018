@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Created during [Good Tech Hack 2018](https://goodtechhack.confetti.events/) in Sundsvall, Sweden.
 The theme of the hackathon was sustainability and optimization.
 
+![MyCoach](public/images/diagonal-bg.png)
+
 # MyCoach
 Sick leaves and stress related problems are getting more and more usual.
 A 59% increase in reported cases were found in Sweden during a 4 year period.
