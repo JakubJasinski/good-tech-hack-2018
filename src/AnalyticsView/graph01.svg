@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="313px" height="83px" viewBox="0 0 313 83" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Card Graph 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="14958.9844%" gradientTransform="translate(0.500000,0.000000),scale(0.002160,1.000000),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-1">
+            <stop stop-color="#F5F7F8" offset="0%"></stop>
+            <stop stop-color="#E7EBEF" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="14958.9844%" gradientTransform="translate(0.500000,0.000000),scale(1.000000,0.043506),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-2">
+            <stop stop-color="#F5F7F8" offset="0%"></stop>
+            <stop stop-color="#E7EBEF" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="iPhone-7" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-36.000000, -212.000000)">
+        <g id="Card-Graph-1" transform="translate(34.000000, 211.000000)">
+            <g id="graph">
+                <g id="lines" transform="translate(0.730632, 0.602268)" stroke-linecap="square" stroke-width="0.6">
+                    <path d="M3,3.91728508 L313.379023,3.91728508" id="6" stroke="url(#radialGradient-1)"></path>
+                    <path d="M1.7693683,69.3529559 L1.7693683,1.2932544" id="6" stroke="url(#radialGradient-2)"></path>
+                    <path d="M3,16.9899108 L313.379023,16.9899108" id="5" stroke="url(#radialGradient-1)"></path>
+                    <path d="M3,30.0625365 L313.379023,30.0625365" id="4" stroke="url(#radialGradient-1)"></path>
+                    <path d="M3,43.1351622 L313.379023,43.1351622" id="3" stroke="url(#radialGradient-1)"></path>
+                    <path d="M3,56.2077879 L313.379023,56.2077879" id="2" stroke="url(#radialGradient-1)"></path>
+                    <path d="M3,69.2804136 L313.379023,69.2804136" id="1" stroke="url(#radialGradient-1)"></path>
+                </g>
+                <g id="numbers_and_dates" transform="translate(1.120873, 73.814975)" fill="#485465" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" letter-spacing="0.120000005">
+                    <text id="5">
+                        <tspan x="53.9734849" y="9">5</tspan>
+                    </text>
+                    <text id="1">
+                        <tspan x="4.10258543" y="9">1</tspan>
+                    </text>
+                    <text id="10">
+                        <tspan x="100.976767" y="9">10</tspan>
+                    </text>
+                    <text id="15">
+                        <tspan x="150.847667" y="9">15</tspan>
+                    </text>
+                    <text id="20">
+                        <tspan x="200.718566" y="9">20</tspan>
+                    </text>
+                    <text id="25">
+                        <tspan x="250.589466" y="9">25</tspan>
+                    </text>
+                    <text id="30">
+                        <tspan x="300.460365" y="9">30</tspan>
+                    </text>
+                </g>
+                <path d="M10.7392729,54.6967528 C10.7392729,54.6967528 26.9744088,57.0264155 40.8871611,55.3416114 C54.7999133,53.6568073 53.0641947,52.7294431 58.5344905,48.9617668 C64.0047862,45.1940904 75.061761,52.6829416 86.9462344,52.3228876 C103.650216,51.8168209 107.460444,48.2075768 129.439325,36.1169693 C151.418206,24.0263617 159.501527,29.3647533 175.591292,37.3884963 C191.681056,45.4122393 189.425991,39.9848115 207.625074,40.448324 C225.824158,40.9118366 237.82982,64.4540852 266.131853,65.2894553 C294.433887,66.1248254 295.80006,9.62735684 314.22497,9.29347067 C314.724672,23.4581006 314.22497,70.8882682 314.22497,70.8882682 L3.5934475,69.6141144 L3.5934475,56.5193569 L8.91584103,55.211985 L10.7392729,54.6967528 Z" id="Path-2" fill-opacity="0.1" fill="#1DE9B6"></path>
+                <path d="M3.66016091,54.6967528 C3.66016091,54.6967528 9.78271193,53.6509035 15.9497076,54.6967528 C22.1167033,55.7426021 28.1107252,57.5262744 40.2172881,56.1115136 C52.3238509,54.6967528 53.0641947,52.7294431 58.5344905,48.9617668 C64.0047862,45.1940904 75.061761,52.6829416 86.9462344,52.3228876 C103.650216,51.8168209 107.460444,48.2075768 129.439325,36.1169693 C151.418206,24.0263617 159.501527,29.3647533 175.591292,37.3884963 C191.681056,45.4122393 189.425991,39.9848115 207.625074,40.448324 C225.824158,40.9118366 237.82982,64.4540852 266.131853,65.2894553 C294.433887,66.1248254 295.80006,9.62735684 314.22497,9.29347067" id="Path-2" stroke="#1DE9B6" stroke-width="2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

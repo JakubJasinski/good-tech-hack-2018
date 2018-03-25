@@ -1,0 +1,18 @@
+/*** More variables not shown here.. ***/
+.card {
+  border-radius: 12px; }
+  .card .card-content .text {
+    color: #333;
+    font-size: 1.6em;
+    margin-top: 12px; }
+  .card .card-content .small {
+    font-size: 1.4em; }
+  .card .card-content .option {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.2em;
+    position: relative;
+    margin-top: -42px; }
+  .card .card-content .bottom {
+    width: 100%;
+    margin: 108px 0 -24px 0;
+    padding: 0 8px; }

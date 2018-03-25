@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="296px" height="90px" viewBox="0 0 296 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="iPhone-7" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-40.000000, -365.000000)">
+        <g id="Group" transform="translate(39.000000, 365.000000)">
+            <g id="Card-Graph-2">
+                <g id="Graph-2">
+                    <path d="M1.63809524,76.5424774 L296.182197,76.5424774" id="6" stroke="#CBCBCB" stroke-width="0.6" stroke-linecap="square"></path>
+                    <path d="M1.63809524,76.5424774 L1.63809524,0.448275862" id="6" stroke="#CBCBCB" stroke-width="0.6" stroke-linecap="square"></path>
+                    <path d="M2,28.1229134 C17.8746849,28.1229134 19.4732191,32.5036452 35.8905929,32.5036474 C52.3079667,32.5036496 51,24.1229134 66,20.1229134 C81,16.1229134 82.2666846,11.619266 98,11.619266 C113.733315,11.6192661 129.098151,28.1229134 145,28.1229134 C160.901849,28.1229134 175.449089,20.1229136 192,20.1229134 C208.550911,20.1229132 221.747206,32.5036449 237,32.5036474 C252.252794,32.5036499 255,31.1229134 261,28.1229134 C267,25.1229134 275.773621,11.6192673 292,11.619266" id="line" stroke="#0EDBA7" stroke-width="3" transform="translate(147.000000, 22.061457) scale(-1, -1) translate(-147.000000, -22.061457) "></path>
+                </g>
+                <text id="Tid" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" line-spacing="16" fill="#485465" fill-opacity="0.87">
+                    <tspan x="273" y="89">Tid</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

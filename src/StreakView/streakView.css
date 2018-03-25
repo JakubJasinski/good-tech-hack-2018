@@ -1,0 +1,33 @@
+/*** More variables not shown here.. ***/
+.streak-view-container {
+  position: relative;
+  transition: opacity .3s;
+  z-index: 1; }
+  .streak-view-container.disabled {
+    opacity: 0; }
+  .streak-view-container.removed {
+    visibility: collapse; }
+  .streak-view-container .streak-modal {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    right: 0;
+    background: white;
+    height: 284px;
+    margin: 28px;
+    overflow: hidden;
+    transition: top .3s;
+    text-align: center; }
+    .streak-view-container .streak-modal.disabled {
+      top: 120px; }
+  .streak-view-container .face {
+    margin-top: 50px; }
+  .streak-view-container .text {
+    margin: 20px;
+    font-size: 1.28em; }
+  .streak-view-container .diagonal-bg {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    right: 0;
+    width: 100%; }

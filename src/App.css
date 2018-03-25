@@ -1,0 +1,22 @@
+/*** More variables not shown here.. ***/
+.App {
+  background: #F3F3F3;
+  height: 100vh;
+  color: #333;
+  min-height: 700px; }
+  .App .nav-extended {
+    background-color: #28B4F2; }
+  .App .brand-logo {
+    width: 140px;
+    height: 50px;
+    background: url("./mincoach.svg") no-repeat; }
+
+.view {
+  transition: opacity .3s; }
+  .view.disabled {
+    opacity: 0; }
+
+.notif {
+  position: absolute;
+  margin-left: 3px;
+  margin-top: 3px; }

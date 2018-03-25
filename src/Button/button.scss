@@ -1,0 +1,13 @@
+@import '../variables';
+
+.button-container {
+  width:100%;
+  display: flex;
+  justify-content: center;
+  margin-top:36px;
+  .btn {
+    border-radius: 20px;
+    width:80%;
+    background-color: $accent-color;
+  }
+}

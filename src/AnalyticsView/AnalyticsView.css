@@ -1,0 +1,29 @@
+/*** More variables not shown here.. ***/
+.analytics-view-container {
+  text-align: center;
+  padding: 24px 0 48px 0;
+  background: #F3F3F3; }
+  .analytics-view-container h5 {
+    font-weight: bold; }
+  .analytics-view-container .graph-container .graph {
+    width: 100%;
+    height: 98px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 36px; }
+  .analytics-view-container .graph-container p {
+    color: rgba(0, 0, 0, 0.5); }
+  .analytics-view-container .graph-container .g1 {
+    background-image: url("./graph01.svg"); }
+  .analytics-view-container .graph-container .g2 {
+    background-image: url("./graph02.svg"); }
+  .analytics-view-container .graph-container .g3 {
+    background-image: url("./graph03.svg"); }
+  .analytics-view-container .graph-container .g4 {
+    background-image: url("./graph11.svg"); }
+  .analytics-view-container .graph-container .g5 {
+    background-image: url("./graph12.svg"); }
+  .analytics-view-container .graph-container .g6 {
+    background-image: url("./graph13.svg"); }
+  .analytics-view-container .bottom {
+    margin: 64px 0 -18px 0; }

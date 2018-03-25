@@ -1,0 +1,10 @@
+/*** More variables not shown here.. ***/
+.button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 36px; }
+  .button-container .btn {
+    border-radius: 20px;
+    width: 80%;
+    background-color: #13D5A4; }

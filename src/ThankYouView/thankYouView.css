@@ -1,0 +1,32 @@
+/*** More variables not shown here.. ***/
+.thank-you-view-container {
+  text-align: center;
+  padding: 50px;
+  overflow-x: hidden; }
+  .thank-you-view-container .face {
+    margin: 40px; }
+  .thank-you-view-container .uplifting-text {
+    font-size: 1.28em;
+    width: 70%;
+    margin: 20px auto;
+    color: #717171; }
+  .thank-you-view-container .analys-progress.p100 .progress .actual-progress {
+    width: 100%; }
+  .thank-you-view-container .analys-progress.p100 .percent {
+    left: 118px; }
+  .thank-you-view-container .analys-progress .percent {
+    position: relative;
+    left: 94px;
+    color: #333;
+    transition: left .3s; }
+  .thank-you-view-container .analys-progress .progress {
+    width: 100%;
+    height: 16px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 8px; }
+    .thank-you-view-container .analys-progress .progress .actual-progress {
+      width: 83%;
+      height: 100%;
+      background: #13D5A4;
+      border-radius: 8px;
+      transition: width .3s; }
