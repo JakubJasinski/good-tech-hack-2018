@@ -12,7 +12,7 @@ Clone into a repository on your machine
 npm install
 npm start
 ```
-This will open up the application on port 3000. Designed to run in chrome in Iphone 6/7/8 device mode.
+This will open up the application on port 3000. Designed to run on an Iphone on the same network as your computer, or in chrome in Iphone 6/7/8 device mode.
 
 # MyCoach
 Sick leaves and stress related problems are getting more and more usual.
