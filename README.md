@@ -1,6 +1,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+### Setup
+Clone into a repository on your machine
+```
+npm install
+npm start
+```
+
 Created during [Good Tech Hack 2018](https://goodtechhack.confetti.events/) in Sundsvall, Sweden.
 The theme of the hackathon was sustainability and optimization.
 
