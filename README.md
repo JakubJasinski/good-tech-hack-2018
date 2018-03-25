@@ -1,17 +1,18 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+Created during [Good Tech Hack 2018](https://goodtechhack.confetti.events/) in Sundsvall, Sweden.
+The theme of the hackathon was sustainability and optimization.
+
+![MyCoach](public/images/diagonal-bg.png)
+
 ### Setup
 Clone into a repository on your machine
 ```
 npm install
 npm start
 ```
-
-Created during [Good Tech Hack 2018](https://goodtechhack.confetti.events/) in Sundsvall, Sweden.
-The theme of the hackathon was sustainability and optimization.
-
-![MyCoach](public/images/diagonal-bg.png)
+This will open up the application on port 3000. Designed to run in chrome in Iphone 6/7/8 device mode.
 
 # MyCoach
 Sick leaves and stress related problems are getting more and more usual.
