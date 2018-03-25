@@ -7,9 +7,9 @@ import './questionView.css';
 class QuestionView extends Component {
   render() {
     const content = [
-      {text: 'Hur var det att kliva upp ur sängen imorse?', leftOption: 'Lätt', rightOption:'Svårt'},
-      {text: 'Hur har din energinivå varit under dagen?', leftOption: 'Enkelt', rightOption:'Jobbigt'},
-      {text: 'Hur bra sov du inatt?', leftOption: 'Bra', rightOption:'Dåligt'},
+      {text: 'How was it to get out of bed this morning?', leftOption: 'Easy', rightOption:'Hard'},
+      {text: 'How has your energy level been today?', leftOption: 'Low', rightOption:'High'},
+      {text: 'How well did you sleep tonight?', leftOption: 'Good', rightOption:'Bad'},
     ];
     return (
       <div>
@@ -18,7 +18,7 @@ class QuestionView extends Component {
         <CardSwiper content={content} slider={true} />
 
         <div className="container">
-          <Button onClick={this.props.onComplete} text={'KLAR MED DAGEN'}/>
+          <Button onClick={this.props.onComplete} text={'FINISHED TODAY'}/>
         </div>
       </div>
     );

@@ -74,8 +74,8 @@ class App extends Component {
              </div>
              <div className="nav-content">
                <ul className="tabs tabs-transparent">
-                 <li className={menuClass1} onClick={() => this.onMenuClick(0)}>DIN DAG</li>
-                 <li className={menuClass2} onClick={() => this.onMenuClick(1)}>ANALYS
+                 <li className={menuClass1} onClick={() => this.onMenuClick(0)}>YOUR DAY</li>
+                 <li className={menuClass2} onClick={() => this.onMenuClick(1)}>ANALYSIS
                   {this.state.tab2Notif && <img className="notif" src={notifImage} />}
                  </li>
                </ul>

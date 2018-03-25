@@ -11,9 +11,9 @@ class StreakView extends Component {
           +(this.props.removed? " removed": "")
         }>
         <div className={"streak-modal card"+(this.props.enabled? "": " disabled")}>
-          
+
           <img className="face" src={winkyFace} />
-          <div className="text">Bra jobbat, du har nu 7 dagars streak!</div>
+          <div className="text">Good work, you now have a 7 day streak!</div>
           <img className="diagonal-bg" src={diagonalBG} />
         </div>
       </div>

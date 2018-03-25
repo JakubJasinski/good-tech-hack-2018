@@ -6,14 +6,14 @@ import smileyFace from './smileyFace.svg';
 class ThankYouView extends Component {
   componentWillMount() {
     this.setState({
-      text: "Fortsätt så, det är nära till din nästa analys nu!",
+      text: "Keep on like this, your next analysis is close!",
       percent: 83
     });
   }
 
   updateText = () => {
     this.setState({
-      text: "Din analys väntar på dig!",
+      text: "Your analysis is waiting for you!",
       percent: 100
     });
     this.props.onComplete();

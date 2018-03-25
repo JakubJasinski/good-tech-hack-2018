@@ -32,7 +32,7 @@ class Card extends Component {
           ) : ('')}
 
           {this.props.button ? (
-            <Button text={'LÄS MER'}/>
+            <Button text={'READ MORE'}/>
           ): ('')}
         </div>
       </div>
